@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.blankj.utilcode.util.ThreadUtils;
 import com.example.studyandroid.App;
 import com.example.studyandroid.R;
 
@@ -38,7 +39,15 @@ public class ActPageActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         App.setShowLifeCycleStr("ActPageActivity onResume" + "\n");
-        mTextView.setText(App.getShowLifeCycleStr());
+        /**
+         * 这里为了演示，所以延时1000毫秒
+         */
+        ThreadUtils.runOnUiThreadDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mTextView.setText(App.getShowLifeCycleStr());
+            }
+        },1000);
     }
 
     @Override
@@ -63,4 +72,8 @@ public class ActPageActivity extends AppCompatActivity {
         startActivity(new Intent(this,ActPage2Activity.class));
     }
 
+    public void clearData(View view) {
+        App.clearLifeCycleStr();
+        mTextView.setText(App.getShowLifeCycleStr());
+    }
 }

@@ -12,7 +12,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:text="Activity"
+        android:text="Activity LifeCycle"
         android:textAllCaps="false"
         android:onClick="actPage"
         app:layout_constraintLeft_toLeftOf="parent"
