@@ -20,4 +20,9 @@ public class ServiceActivity extends AppCompatActivity {
     public void bindService(View view) {
 
     }
+
+    public void startService(View view) {
+
+    }
+
 }
