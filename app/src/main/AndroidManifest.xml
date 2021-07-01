@@ -10,8 +10,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyAndroid">
-        <activity android:name=".activity.ActPage2Activity"></activity>
-        <activity android:name=".activity.ActPageActivity" />
+        <activity android:name=".activity.launchmode.LaunchMode2Activity"></activity>
+        <activity
+            android:name=".activity.launchmode.SingleInstanceActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".activity.launchmode.SingleTaskActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activity.launchmode.SingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activity.launchmode.StandardActivity"
+            android:launchMode="standard" />
+        <activity android:name=".activity.launchmode.LaunchModeActivity" />
+        <activity android:name=".activity.lifecycle.ActPage2Activity" />
+        <activity android:name=".activity.lifecycle.ActPageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

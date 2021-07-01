@@ -1,4 +1,4 @@
-package com.example.studyandroid.activity;
+package com.example.studyandroid.activity.lifecycle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +18,7 @@ public class ActPage2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act_page2);
+        setTitle("ActPage2Activity");
         App.setShowLifeCycleStr("ActPage2Activity onCreate" + "\n");
         mTextView = findViewById(R.id.textView);
     }

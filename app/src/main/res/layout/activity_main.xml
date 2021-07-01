@@ -7,16 +7,26 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_life"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="actPage"
         android:text="Activity LifeCycle"
         android:textAllCaps="false"
-        android:onClick="actPage"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:onClick="launchModePage"
+        android:text="Activity LaunchMode"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btn_life" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

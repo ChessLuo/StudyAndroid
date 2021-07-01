@@ -1,12 +1,13 @@
 package com.example.studyandroid;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.studyandroid.activity.ActPageActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.studyandroid.activity.launchmode.LaunchModeActivity;
+import com.example.studyandroid.activity.lifecycle.ActPageActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void actPage(View view) {
         App.clearLifeCycleStr();
         startActivity(new Intent(this, ActPageActivity.class));
+    }
+
+    public void launchModePage(View view) {
+        startActivity(new Intent(this, LaunchModeActivity.class));
     }
 }

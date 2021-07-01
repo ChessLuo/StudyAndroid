@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.lifecycle.ActPageActivity">
+    tools:context=".activity.launchmode.LaunchModeActivity">
 
     <Button
         android:layout_width="match_parent"
@@ -13,9 +13,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:text="to ActPage2"
+        android:text="open standard mode page"
         android:textAllCaps="false"
-        android:onClick="toActPage2"/>
+        android:onClick="toStandardPage"/>
 
     <Button
         android:layout_width="match_parent"
@@ -23,9 +23,29 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="5dp"
-        android:text="clear data"
+        android:text="open singleTop mode page"
         android:textAllCaps="false"
-        android:onClick="clearData"/>
+        android:onClick="toSingleTopPage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="open singleTask mode page"
+        android:textAllCaps="false"
+        android:onClick="toSingleTaskPage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="open singleInstance mode page"
+        android:textAllCaps="false"
+        android:onClick="toSingleInstancePage"/>
 
     <ScrollView
         android:layout_width="match_parent"
