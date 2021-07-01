@@ -1,10 +1,10 @@
 package com.example.studyandroid.activity.lifecycle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.blankj.utilcode.util.ThreadUtils;
 import com.example.studyandroid.App;
@@ -18,7 +18,7 @@ public class ActPage2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act_page2);
-        setTitle("ActPage2Activity");
+        setTitle(ActPage2Activity.class.getSimpleName());
         App.setShowLifeCycleStr("ActPage2Activity onCreate" + "\n");
         mTextView = findViewById(R.id.textView);
     }
@@ -47,7 +47,7 @@ public class ActPage2Activity extends AppCompatActivity {
             public void run() {
                 mTextView.setText(App.getShowLifeCycleStr());
             }
-        },1000);
+        }, 1000);
     }
 
     @Override

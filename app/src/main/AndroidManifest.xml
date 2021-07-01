@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyAndroid">
-        <activity android:name=".activity.launchmode.LaunchMode2Activity"></activity>
+        <activity android:name=".service.ServiceActivity"></activity>
+        <activity android:name=".activity.launchmode.LaunchMode2Activity" />
         <activity
             android:name=".activity.launchmode.SingleInstanceActivity"
             android:launchMode="singleInstance" />

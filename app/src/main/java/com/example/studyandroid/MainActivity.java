@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.studyandroid.activity.launchmode.LaunchModeActivity;
 import com.example.studyandroid.activity.lifecycle.ActPageActivity;
+import com.example.studyandroid.service.ServiceActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchModePage(View view) {
         startActivity(new Intent(this, LaunchModeActivity.class));
+    }
+
+    public void servicePage(View view) {
+        startActivity(new Intent(this, ServiceActivity.class));
     }
 }

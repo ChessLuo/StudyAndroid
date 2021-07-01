@@ -43,8 +43,13 @@ public class LaunchModeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launch_mode);
         setTitle("LaunchModeActivity");
         mTextView = findViewById(R.id.textView);
-        //获取当前activity
+        //
+        String textStr = "standard标准模式：\n每次启动一个 Activity 都会重新创建一个新的实例，不管这个实例是否已经存在，此模式的 Activity 默认会进入启动它的 Activity 所属的任务栈中；\n\n" +
+                "singleTop栈顶复用模式：\n如果新 Activity 已经位于任务栈的栈顶，那么此 Activity 不会被重新创建，同时会回调 onNewIntent 方法，如果新 Activity 实例已经存在但不在栈顶，那么 Activity 依然会被重新创建；\n\n" +
+                "singleTask栈内复用模式：\n只要 Activity 在一个任务栈中存在，那么多次启动此 Activity 都不会重新创建实例，并回调 onNewIntent 方法，此模式启动 Activity，系统首先会寻找是否 Activity 存在想要的任务栈，如果不存在，就会重新创建一个任务栈，然后把创建好 Activity 的实例放到栈中，具有 clearTop 功能；\n\n" +
+                "singleInstance单实例模式：\n这是一种加强的 singleTask 模式，具有此种模式的 Activity 只能单独地位于一个任务栈中，且此任务栈中只有唯一一个实例；";
 
+        mTextView.setText(textStr);
     }
 
     public void toStandardPage(View view) {

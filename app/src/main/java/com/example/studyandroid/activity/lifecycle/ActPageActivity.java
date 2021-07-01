@@ -19,7 +19,7 @@ public class ActPageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act_page);
-        setTitle("ActPageActivity");
+        setTitle(ActPageActivity.class.getSimpleName());
         App.setShowLifeCycleStr("ActPageActivity onCreate" + "\n");
         mTextView = findViewById(R.id.textView);
     }
