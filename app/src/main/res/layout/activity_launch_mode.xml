@@ -58,6 +58,6 @@
             android:text="TextView"
             android:layout_gravity="center_horizontal"
             android:textColor="@color/black"
-            android:textSize="18dp"/>
+            android:textSize="18sp"/>
     </ScrollView>
 </LinearLayout>
