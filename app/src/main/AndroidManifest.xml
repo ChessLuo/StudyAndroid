@@ -10,7 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyAndroid">
-        <activity android:name=".service.ServiceActivity"></activity>
+        <activity android:name=".Javabasis.JavaBasisActivity"></activity>
+        <activity android:name=".codeanalysis.CodeAnalysisActivity" />
+        <activity android:name=".customview.CustomViewActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".thread.ThreadActivity" />
+        <activity android:name=".contentprovider.CtProviderActivity" />
+        <activity android:name=".fragment.FragmentActivity" />
+        <activity android:name=".broadcast.BroadcastActivity" />
+        <activity android:name=".service.ServiceActivity" />
         <activity android:name=".activity.launchmode.LaunchMode2Activity" />
         <activity
             android:name=".activity.launchmode.SingleInstanceActivity"
