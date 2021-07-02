@@ -1,4 +1,4 @@
-package com.example.studyandroid.activity.launchmode;
+package com.example.studyandroid.demo.activity.launchmode;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -10,31 +10,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudyAndroid">
-        <activity android:name=".Javabasis.JavaBasisActivity"></activity>
-        <activity android:name=".codeanalysis.CodeAnalysisActivity" />
-        <activity android:name=".customview.CustomViewActivity" />
-        <activity android:name=".animation.AnimationActivity" />
-        <activity android:name=".thread.ThreadActivity" />
-        <activity android:name=".contentprovider.CtProviderActivity" />
-        <activity android:name=".fragment.FragmentActivity" />
-        <activity android:name=".broadcast.BroadcastActivity" />
-        <activity android:name=".service.ServiceActivity" />
-        <activity android:name=".activity.launchmode.LaunchMode2Activity" />
+        <activity android:name=".demo.Javabasis.JavaBasisActivity"></activity>
+        <activity android:name=".demo.codeanalysis.CodeAnalysisActivity" />
+        <activity android:name=".demo.customview.CustomViewActivity" />
+        <activity android:name=".demo.animation.AnimationActivity" />
+        <activity android:name=".demo.thread.ThreadActivity" />
+        <activity android:name=".demo.contentprovider.CtProviderActivity" />
+        <activity android:name=".demo.fragment.FragmentActivity" />
+        <activity android:name=".demo.broadcast.BroadcastActivity" />
+        <activity android:name=".demo.service.ServiceActivity" />
+        <activity android:name=".demo.activity.launchmode.LaunchMode2Activity" />
         <activity
-            android:name=".activity.launchmode.SingleInstanceActivity"
+            android:name=".demo.activity.launchmode.SingleInstanceActivity"
             android:launchMode="singleInstance" />
         <activity
-            android:name=".activity.launchmode.SingleTaskActivity"
+            android:name=".demo.activity.launchmode.SingleTaskActivity"
             android:launchMode="singleTask" />
         <activity
-            android:name=".activity.launchmode.SingleTopActivity"
+            android:name=".demo.activity.launchmode.SingleTopActivity"
             android:launchMode="singleTop" />
         <activity
-            android:name=".activity.launchmode.StandardActivity"
+            android:name=".demo.activity.launchmode.StandardActivity"
             android:launchMode="standard" />
-        <activity android:name=".activity.launchmode.LaunchModeActivity" />
-        <activity android:name=".activity.lifecycle.ActPage2Activity" />
-        <activity android:name=".activity.lifecycle.ActPageActivity" />
+        <activity android:name=".demo.activity.launchmode.LaunchModeActivity" />
+        <activity android:name=".demo.activity.lifecycle.ActPage2Activity" />
+        <activity android:name=".demo.activity.lifecycle.ActPageActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,19 +1,19 @@
-package com.example.studyandroid.activity.launchmode;
+package com.example.studyandroid.demo.activity.launchmode;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.studyandroid.R;
 
-public class LaunchMode2Activity extends AppCompatActivity {
+public class SingleTopActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_launch_mode2);
-        setTitle(LaunchMode2Activity.class.getSimpleName());
+        setContentView(R.layout.activity_single_top);
+        setTitle("SingleTopActivity");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.example.studyandroid.activity.launchmode;
+package com.example.studyandroid.demo.activity.launchmode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,13 +7,13 @@ import android.os.Bundle;
 
 import com.example.studyandroid.R;
 
-public class SingleTopActivity extends AppCompatActivity {
+public class SingleInstanceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_single_top);
-        setTitle("SingleTopActivity");
+        setContentView(R.layout.activity_single_instance);
+        setTitle("SingleInstanceActivity");
     }
 
     @Override

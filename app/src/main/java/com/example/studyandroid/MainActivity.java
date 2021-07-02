@@ -6,17 +6,17 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.studyandroid.Javabasis.JavaBasisActivity;
-import com.example.studyandroid.activity.launchmode.LaunchModeActivity;
-import com.example.studyandroid.activity.lifecycle.ActPageActivity;
-import com.example.studyandroid.animation.AnimationActivity;
-import com.example.studyandroid.broadcast.BroadcastActivity;
-import com.example.studyandroid.codeanalysis.CodeAnalysisActivity;
-import com.example.studyandroid.contentprovider.CtProviderActivity;
-import com.example.studyandroid.customview.CustomViewActivity;
-import com.example.studyandroid.fragment.FragmentActivity;
-import com.example.studyandroid.service.ServiceActivity;
-import com.example.studyandroid.thread.ThreadActivity;
+import com.example.studyandroid.demo.Javabasis.JavaBasisActivity;
+import com.example.studyandroid.demo.activity.launchmode.LaunchModeActivity;
+import com.example.studyandroid.demo.activity.lifecycle.ActPageActivity;
+import com.example.studyandroid.demo.animation.AnimationActivity;
+import com.example.studyandroid.demo.broadcast.BroadcastActivity;
+import com.example.studyandroid.demo.codeanalysis.CodeAnalysisActivity;
+import com.example.studyandroid.demo.contentprovider.CtProviderActivity;
+import com.example.studyandroid.demo.customview.CustomViewActivity;
+import com.example.studyandroid.demo.fragment.FragmentActivity;
+import com.example.studyandroid.demo.service.ServiceActivity;
+import com.example.studyandroid.demo.thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
 

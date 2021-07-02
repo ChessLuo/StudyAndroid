@@ -1,4 +1,4 @@
-package com.example.studyandroid.broadcast;
+package com.example.studyandroid.demo.broadcast;
 
 import android.os.Bundle;
 import android.view.View;

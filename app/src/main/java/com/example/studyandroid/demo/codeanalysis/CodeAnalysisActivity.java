@@ -1,4 +1,4 @@
-package com.example.studyandroid.animation;
+package com.example.studyandroid.demo.codeanalysis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.studyandroid.R;
 
-public class AnimationActivity extends AppCompatActivity {
+public class CodeAnalysisActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animation);
+        setContentView(R.layout.activity_code_analysis);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.studyandroid.fragment;
+package com.example.studyandroid.demo.contentprovider;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.studyandroid.R;
 
-public class FragmentActivity extends AppCompatActivity {
+public class CtProviderActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment);
+        setContentView(R.layout.activity_ct_provider);
     }
 }

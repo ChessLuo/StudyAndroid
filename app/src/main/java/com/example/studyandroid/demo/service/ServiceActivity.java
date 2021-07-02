@@ -1,4 +1,4 @@
-package com.example.studyandroid.service;
+package com.example.studyandroid.demo.service;
 
 import android.os.Bundle;
 import android.view.View;
